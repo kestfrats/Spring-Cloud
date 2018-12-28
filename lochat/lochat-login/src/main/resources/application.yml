@@ -1,0 +1,13 @@
+server:
+  port: 9000
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: mysql
+  datasource:
+    url: jdbc:mysql://10.211.55:12:3306/lochat-users
+    username: admin
+    password: ce24nk90!.
+    driver-class-name: com.mysql.jdbc.Driver

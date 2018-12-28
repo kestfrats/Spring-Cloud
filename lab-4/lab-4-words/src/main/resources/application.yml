@@ -1,0 +1,42 @@
+eureka:
+  instance:
+    instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+server:
+  port: 8080
+  
+  
+---
+spring:
+  profiles: sentence
+server:
+  port: 8090
+    
+---
+spring:
+  profiles: subject
+server:
+  port: 8081
+  
+---
+spring:
+  profiles: verb
+server:
+  port: 8082
+
+---
+spring:
+  profiles: article
+server:
+  port: 8083
+
+---
+spring:
+  profiles: adjective
+server:
+  port: 8084
+  
+---
+spring:
+  profiles: noun
+server:
+  port: 8085
