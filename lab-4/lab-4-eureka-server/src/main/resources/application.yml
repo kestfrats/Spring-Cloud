@@ -1,6 +1,6 @@
 ---
 server:
-  port: ${PORT:8761}
+  port: 8010
 eureka:
   client:
     registerWithEureka: false
@@ -25,4 +25,3 @@ spring:
   profiles: tertiary
 server:
   port: 8013
-     
