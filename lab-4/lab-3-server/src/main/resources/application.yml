@@ -3,6 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kestfrats/ConfigData
+          uri: https://github.com/kestfrats/Spring-Cloud
+          search-paths: configs
 server:
   port: 8001
