@@ -45,3 +45,9 @@ spring:
   profiles: noun
   application:
     name: lab-4-noun
+    
+---
+spring:
+  profiles: cold-noun
+  application:
+    name: lab-4-noun
